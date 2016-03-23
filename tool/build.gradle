@@ -1,0 +1,8 @@
+apply plugin: 'java'
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile files('libs/android-sun-jarsign-support-1.1.jar')
+    compile files('libs/apktool.jar')
+    compile files('libs/dx-1.7.jar')
+}
